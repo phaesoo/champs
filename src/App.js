@@ -1,26 +1,25 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Split from 'react-split';
 import './App.css';
+
+import sc from'styled-components';
+
+import CodeEditor from './components/CodeEditor'
+
+const Body = sc.div`
+width: 100vw
+height: 100vh
+`
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Body>
+      <Split sizes={[25, 25]} style={{width:'100%', height:'100%', display: 'flex'}}>
+      <CodeEditor/>
+      <CodeEditor/>
+      </Split>
+      </Body>
     );
   }
 }

@@ -13,3 +13,10 @@ Project for programming chanpions league
 2. UI: Material-ui
 3. Code editor: [ace](https://ace.c9.io/)
 
+## Packages
+1. material-ui
+2. react-split
+3. react-ace
+
+## Reference
+1. Layout is inspired by [Programmers](https://programmers.co.kr)
