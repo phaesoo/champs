@@ -9,7 +9,7 @@ Project for programming chanpions league
 1. Rewarded by crytocurrency.
 
 ## Technical stacks
-Reactjs: Frontend
-UI: Material-ui
-Code editor: [ace](https://ace.c9.io/)
+1. Reactjs: Frontend
+2. UI: Material-ui
+3. Code editor: [ace](https://ace.c9.io/)
 
