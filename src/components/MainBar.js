@@ -24,6 +24,7 @@ const styles = theme => ({
     flexGrow: 1,
   },
   appBar: {
+    height: '100%',
     backgroundColor: '#24292E',
   },
   menuButton: {
