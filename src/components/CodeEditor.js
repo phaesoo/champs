@@ -6,8 +6,8 @@ import "brace/mode/python";
 import "brace/theme/monokai";
 
 const Editor = sc.div`
-height: 100%
-weight: 100%
+height: 99%
+width: 99%
 `
 
 class CodeEditor extends React.Component {
@@ -21,8 +21,8 @@ class CodeEditor extends React.Component {
         <AceEditor
         mode="python"
         theme="monokai"
-        width="100%"
-        height="100%"
+        width="99%"
+        height="99%"
         />
       </Editor>
     );
